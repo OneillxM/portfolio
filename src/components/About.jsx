@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import { Tilt } from "react-tilt";
 import { motion } from 'framer-motion';
@@ -10,7 +10,9 @@ import { SectionWrapper } from '../hoc';
 
 
 
-const ServiceCard = ({ index, title, icon }) => {
+const ServiceCard = (props) => {
+
+  const { index, icon } = props;
   return (
      <Tilt className="xs:w-[250px] w-full">
          <motion.div
