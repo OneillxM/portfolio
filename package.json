@@ -1,6 +1,6 @@
 {
   "name": "3d-portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,14 +8,13 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
-    
-    
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.86.3",
     "@react-three/fiber": "^8.14.4",
     "framer-motion": "^10.16.4",
+    "jsx-loader": "^0.13.2",
     "maath": "^0.10.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
